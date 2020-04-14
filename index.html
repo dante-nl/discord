@@ -26,8 +26,12 @@ color: #fff
 <body>
 <h2>Redirect page</h2>
 <p>You will be redirected soon!</p>
+
 <script>
-  open("https://routinehub.co")
-</script
+myWindow = window.open("routinehub.co", "_self");
+myWindow.document.write("<p>Text</p>");
+</script>
+
+
 </body>
 </html>
